@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>     
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="icone/icone.png" type="image/x-icon">
+        <title>COTAÇÃO</title>
+    </head>
+    <body>
+        <main>
+            <h1>Cotações de Moedas</h1>
+            <p>Nessa plataforma você pode realizar consultas da cotação da moedas em ralação ao Real Brasileiro, você pode realizar a consultar em tempo real ou selecionar um intervalo de tempo que gostariam de ver as contações que ocorreram. </p>
+            <select>
+                <option>MOEDAS</option>
+            </select> 
+            <form>
+                <input type="date" id="data-minima" />
+                <input type="date" id="data-maxima" />
+                <input type="button" id="submit" value="CONSULTAR"/>
+            </form>
+            <section>
+                <h3>Ultimas Consultas</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Moeda</th>
+                            <th>Compra</th>
+                            <th>Venda</th>
+                            <th>Mínimo</th>
+                            <th>Máximo</th>
+                            <!-- <th>Variação</th> -->
+                            <th id="variacao">Variação</th>
+                            <th>Data e hora</th>
+                            <th>Remover</th>
+                        </tr>
+                    </thead>
+                    <tbody> </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <h2>By Aspirante Tiago Santos</h2>
+        </footer>
+        <script src="script/main.js"></script>
+        <script src="script/tabela.js"></script>
+    </body>
+</html>

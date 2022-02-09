@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    overflow: scroll;
+    background-color: #0E1A26;
+    color: #B8B7BD;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 100px;
+    font-family: 'Lily Script One', cursive;
+}
+
+h3{
+    font-size: 40px;
+}
+
+p{
+    width: 80%;
+    font-size: 20px;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+select{
+    width: 25%;
+    height: 60px;
+    text-align: center;
+    background-color: #0E1A26;
+    border: #B8B7BD 3px solid;
+    color: #B8B7BD;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+input{
+    width: 25%;
+    height: 60px;
+    text-align: center;
+    background-color: #0E1A26;
+    border: #B8B7BD 3px solid;
+    color: #B8B7BD;
+    font-size: 40px;
+}
+
+#submit{
+    font-size: 30px;
+}
+
+#submit:hover{
+    background-color: #B8B7BD;
+    color: #0E1A26;
+    cursor: pointer;
+}
+
+section{
+    margin-top: 100px;
+}
+
+table{
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 20px;
+    /* height: 800px; */
+}
+
+thead{
+    height: 100px;
+    border: 20px solid white;
+    /* background-color: red; */
+}
+
+/* #variacao{
+    width: 15%;
+} */
+
+th{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+td{
+    font-size: 25px;
+    height: 70px;
+    border-top: 2px solid #B8B7BD ;
+}
+
+.botao-remover{
+    width: 65%;
+    height: 35px;
+    border-color: #B8B7BD;
+    color: #0E1A26;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+section{
+    display: none;
+}
